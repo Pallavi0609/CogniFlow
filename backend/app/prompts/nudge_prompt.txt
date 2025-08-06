@@ -1,0 +1,32 @@
+Generate a gentle, helpful nudge for a neurodivergent learner based on their current state.
+
+LEARNER PROFILE:
+{profile}
+
+CURRENT SITUATION:
+{context}
+
+NUDGE REQUIREMENTS:
+- Tone: Supportive, non-patronizing, encouraging
+- Length: 1-2 sentences maximum
+- Avoid: "You should", "Try harder", time pressure language
+- Include: Specific, actionable suggestion
+
+NUDGE TYPES TO CHOOSE FROM:
+1. "break" - Suggest a short break (2-10 minutes)
+2. "breathing" - Breathing exercise or mindfulness
+3. "adjust_difficulty" - Offer simpler content version
+
+PROFILE ADAPTATIONS:
+- If anxiety_triggers include "time_pressure": avoid urgency
+- If attention_span < 20: suggest shorter breaks
+- If preferred_modalities include "kinesthetic": suggest movement
+- If working_memory_index < 0.5: offer to simplify content
+
+OUTPUT JSON:
+{
+  "type": "<nudge_type>",
+  "message": "<supportive message>",
+  "payload": {<specific parameters>},
+  "priority": <1-5>
+}

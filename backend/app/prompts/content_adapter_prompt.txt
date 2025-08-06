@@ -1,0 +1,33 @@
+Adapt the following educational content into 3 variants for a neurodivergent learner.
+
+LEARNER PROFILE:
+{profile}
+
+CONTENT TO ADAPT:
+{content}
+
+OUTPUT FORMAT (exactly 3 sections):
+
+SIMPLIFIED (max 150 words):
+- Use clear, direct language
+- Remove jargon and complex sentences
+- Add context for difficult concepts
+- If profile includes "auditory" modality, suggest reading aloud
+
+BULLETS (max 100 words):
+- Convert to bullet points
+- One concept per bullet
+- Use parallel structure
+- If profile includes "visual" modality, suggest creating diagrams
+
+MICRO_TASKS (max 120 words):
+- Break into 3-5 specific steps
+- Each step should take 5-10 minutes
+- Include check-in points
+- If attention_span < 20 minutes, make steps smaller
+- If anxiety_triggers include "complex_instructions", simplify language
+
+ADAPTATION RULES:
+- If working_memory_index < 0.5: reduce cognitive load, use simpler sentences
+- If anxiety_triggers include "time_pressure": remove urgency language
+- If preferred_modalities include "kinesthetic": suggest hands-on activities
