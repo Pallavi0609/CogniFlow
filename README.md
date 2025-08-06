@@ -66,6 +66,4 @@ pytest tests/ -v
 5. **Focus Tracking**: Integrate real TensorFlow.js attention models
 6. **Accessibility**: Add WCAG compliance testing and screen reader support
 
-## License
 
-MIT - See LICENSE file for details
